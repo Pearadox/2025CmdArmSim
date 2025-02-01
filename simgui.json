@@ -1,0 +1,36 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Arm Sim": "Mechanism2d",
+      "Robot/m_robot/m_drive/m_controller": "ProfiledPIDController",
+      "Robot/m_robot/m_drive/m_gyro": "Gyro",
+      "Robot/m_robot/m_drive/m_leftFollower": "Motor Controller",
+      "Robot/m_robot/m_drive/m_leftLeader": "Motor Controller",
+      "Robot/m_robot/m_drive/m_rightFollower": "Motor Controller",
+      "Robot/m_robot/m_drive/m_rightLeader": "Motor Controller",
+      "Robot/m_robot/m_intake/m_motor": "Motor Controller",
+      "Robot/m_robot/m_shooter/m_feederMotor": "Motor Controller",
+      "Robot/m_robot/m_shooter/m_shooterFeedback": "PIDController",
+      "Robot/m_robot/m_shooter/m_shooterMotor": "Motor Controller",
+      "Robot/m_robot/m_storage/m_motor": "Motor Controller"
+    },
+    "windows": {
+      "/SmartDashboard/Arm Sim": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "SmartDashboard": {
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  }
+}
